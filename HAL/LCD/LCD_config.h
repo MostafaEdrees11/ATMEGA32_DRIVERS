@@ -13,22 +13,22 @@
 
 /* LCD Mode 
  * it must be --> EIGHT_BIT or FOUR_BIT */
-#define LCD_MODE					FOUR_BIT
+#define LCD_MODE					EIGHT_BIT
 
 
 /* Control Pins */
 
 /* RS register selection */
 #define RS_PORT						DIO_u8PORTA
-#define RS_PIN						DIO_u8PIN5
+#define RS_PIN						DIO_u8PIN0
 
 /* RW read write */
 #define RW_PORT						DIO_u8PORTA
-#define RW_PIN						DIO_u8PIN6
+#define RW_PIN						DIO_u8PIN1
 
 /* EN enable */
 #define EN_PORT						DIO_u8PORTA
-#define EN_PIN						DIO_u8PIN7
+#define EN_PIN						DIO_u8PIN2
 
 /* Data Pins */
 
@@ -63,7 +63,5 @@
 /* D0 */
 #define D0_PORT						DIO_u8PORTB
 #define D0_PIN						DIO_u8PIN0
-
-#define LCD_DisplayOn_CursorOff_NoBlinking			0x0C
 
 #endif /* LCD_CONFIG_H_ */
