@@ -14,6 +14,7 @@
 #include "APP/LCD APP/LCD_APP.h"
 #include "APP/KEYPAD LCD APP/KEYPAD_LCD_APP.h"
 #include "APP/EXTI APP/EXTI_APP.h"
+#include "APP/ADC APP/ADC_APP.h"
 
 
 int main(void)
@@ -24,6 +25,7 @@ int main(void)
 	/*LCD_APP();*/
 	/*KEYPAD_LCD_APP();*/
 	/*EXTI_APP();*/
+	/*ADC_APP();*/
 
     /* Replace with your application code */
     while (1) 
