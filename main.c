@@ -9,10 +9,16 @@
 **/
 #define F_CPU 1000000UL
 
+#include "APP/LED APP/LED_APP.h"
+#include "APP/SEVEN SEG APP/SEV_SEG_APP.h"
 
 
 int main(void)
 {
+	/*LED_APP();*/
+	/*CountUp0_99();*/
+	/*SEV_SEG_APP();*/
+
     /* Replace with your application code */
     while (1) 
     {
