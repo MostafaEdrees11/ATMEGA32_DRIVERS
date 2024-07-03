@@ -11,6 +11,8 @@
 - [KEYPAD LCD APP](https://github.com/MostafaEdrees11/ATMEGA32_DRIVERS/tree/master/APP/KEYPAD%20LCD%20APP)
 - [EXTI APP](https://github.com/MostafaEdrees11/ATMEGA32_DRIVERS/tree/master/APP/EXTI%20APP)
 - [ADC APP](https://github.com/MostafaEdrees11/ATMEGA32_DRIVERS/tree/master/APP/ADC%20APP)
+- [USART APP](https://github.com/MostafaEdrees11/ATMEGA32_DRIVERS/tree/master/APP/USART%20APP)
+- [SPI APP](https://github.com/MostafaEdrees11/ATMEGA32_DRIVERS/tree/master/APP/SPI%20APP)
 
 ## HAL
 - [LED](https://github.com/MostafaEdrees11/ATMEGA32_DRIVERS/tree/master/HAL/LED)
@@ -27,3 +29,8 @@
 - [GIE](https://github.com/MostafaEdrees11/ATMEGA32_DRIVERS/tree/master/MCAL/GIE)
 - [ADC](https://github.com/MostafaEdrees11/ATMEGA32_DRIVERS/tree/master/MCAL/ADC)
 - [TIMER0](https://github.com/MostafaEdrees11/ATMEGA32_DRIVERS/tree/master/MCAL/TIMER0)
+
+## Communication Protocols
+- [USART](https://github.com/MostafaEdrees11/ATMEGA32_DRIVERS/tree/master/MCAL/USART)
+- [SPI](https://github.com/MostafaEdrees11/ATMEGA32_DRIVERS/tree/master/MCAL/SPI)
+- [I2C]()

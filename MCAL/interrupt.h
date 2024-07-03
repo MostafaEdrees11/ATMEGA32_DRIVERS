@@ -21,6 +21,7 @@
 
 #define VECT_TIMER0_CTC		__vector_10
 #define VECT_TIMER0_OVF		__vector_11
+#define VECT_SPI			__vector_12
 
 #define VECT_ADC			__vector_16
 

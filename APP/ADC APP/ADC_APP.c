@@ -74,5 +74,5 @@ volatile void Read(void *ptr)
 {
 	ADC_enuReadADCValue(ptr);
 	/*ADC_enuReadHighValue(ptr);*/
-	LCD_enuWriteNumber(*((s32 *)ptr));
+	LCD_enuWriteIntNumber(*((s32 *)ptr));
 }

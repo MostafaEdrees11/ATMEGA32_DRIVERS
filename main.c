@@ -15,6 +15,8 @@
 #include "APP/KEYPAD LCD APP/KEYPAD_LCD_APP.h"
 #include "APP/EXTI APP/EXTI_APP.h"
 #include "APP/ADC APP/ADC_APP.h"
+#include "APP/USART APP/USART_APP.h"
+#include "APP/SPI APP/SPI_APP.h"
 
 
 int main(void)
@@ -26,6 +28,8 @@ int main(void)
 	/*KEYPAD_LCD_APP();*/
 	/*EXTI_APP();*/
 	/*ADC_APP();*/
+	/*USART_APP();*/
+	/*SPI_APP();*/
 
     /* Replace with your application code */
     while (1) 
